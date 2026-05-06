@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Port 7860 පාවිච්චි කිරීම
-server.listen(7860, () => {
+server.listen(7860, "0.0.0.0", () => {
   console.log("Server is running on port 7860");
 });
 
